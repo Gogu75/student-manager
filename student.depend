@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1581248318 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1135285278 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1135285456 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\mysql_com.h
+
+1130016924 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\mysql_time.h
+
+1130016924 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\mysql_version.h
+	<custom_conf.h>
+
+1130016926 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\typelib.h
+
+1130016926 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\my_list.h
+
+1130016924 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\my_alloc.h
+
+1148739406 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\my_global.h
+	<os2.h>
+	"config-win.h"
+	<config-os2.h>
+	<my_config.h>
+	<config-netware.h>
+	<my_config.h>
+	<sys/types.h>
+	<thread.h>
+	<pthread.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<math.h>
+	<limits.h>
+	<float.h>
+	<sys/types.h>
+	<fcntl.h>
+	<sys/timeb.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<unistd.h>
+	<alloca.h>
+	<asm/atomic.h>
+	<errno.h>
+	<crypt.h>
+	<assert.h>
+	<sys/stream.h>
+	"my_dbug.h"
+	<sys/socket.h>
+
+1148829364 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\config-win.h
+	<sys/locking.h>
+	<windows.h>
+	<math.h>
+	<fcntl.h>
+	<io.h>
+	<malloc.h>
+	<custom_conf.h>
+
+1130016926 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\mysql\my_dbug.h
+
+1579168589 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\addmark.c
+
+1579442276 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\addstudent.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Student.h"
+
+1579169113 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\menu.h
+
+1579168576 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\modifstudent.c
+
+1579438127 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\printstudent.c
+
+1579168551 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\removestudent.c
+
+1581969220 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+	"Student.h"
+
+1581968031 c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\student.h
+
+1581859095 source:c:\users\hugof\onedrive\esgi\3si\langage c\eleves\student\student.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Student.h"
+
