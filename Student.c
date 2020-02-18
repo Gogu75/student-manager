@@ -48,6 +48,8 @@ void addStudent(Student **arrayStudent, int size, int id) {
 
     arrayStudent[size] = newStudent;
 
+    //printf("student : %d : %s %s %s \n", arrayStudent[size]->id, arrayStudent[size]->firstName, arrayStudent[size]->lastName, arrayStudent[size]->promotion);
+
     free(prenom);
     free(nom);
     free(promotion);
@@ -68,21 +70,23 @@ void printStudents(Student **arrayStudent, int size) {
 
 void deleteStudent(Student **arrayStudent, int size, int id) {
 
-    printf("Entrez le numero d'identifiant a supprimer : \n");
-    scanf("%d", &id);
-
     if(size <= 0) {
         printf("Il n'y a pas d'etudiants \n");
     }
 
+    printf("Entrez le numero d'identifiant a supprimer : \n");
+    scanf("%d", &id);
+
+
     if(id < 0 || id > size) {
         printf("Identifiant non valide \n");
-        exit(0);
+        return;
     }
 
     for(int i = id; i < size; i++) { //parcourt du tableau depuis le numero d'ID
-        arrayStudent[i-1] = arrayStudent[i]; //on décale tous les éléments vers la gauche
-        free(arrayStudent[i]);
+        if(arrayStudent[i]->id == id) {
+            arrayStudent[i-1] = arrayStudent[i]; //on décale tous les éléments vers la gauche
+        }
     }
 
      printf("Etudiant %d supprime \n", id);
@@ -124,7 +128,7 @@ void detailsStudent(Student **arrayStudent, int size, int id) {
 
     if(id < 0 || id > size) {
         printf("Identifiant non valide \n");
-        exit(0);
+        return;
     }
 
     for(int i = 0; i < size; i++) {
